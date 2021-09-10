@@ -6,3 +6,5 @@ Projects related to Responsive Web Design course
 - Product Landing Page
 - Technical Documentation Page
 - Personal Portfolio Page
+
+Projects can be seen and tested at: https://codepen.io/tims27
