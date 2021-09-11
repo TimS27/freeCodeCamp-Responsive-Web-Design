@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Product Landing Page">
+    <meta name="keywords" content="Product Landiong Page">
+    <meta name="author" content="Tim S">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="style.css">
+	  
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+	  <title id="title">Product Landing Page</title>
+	</head>
+
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://cdn.worldvectorlogo.com/logos/jackson-guitars-logo.svg">
+      
+      <nav id="nav-bar">
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#demo">Demo</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+      <br>
+      <h1 id="title">Jackson Guitars - The finest in the world</h1>
+      <p id="description"><i>Order yours today and become part of the family.</i></p>
+    </header>
+    
+    <main>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" placeholder="Enter your email address" id="email">
+        <input type="submit" name="join" id="submit" value="Join Now" formaction="https://www.freecodecamp.com/email-submit">
+      </form>
+      
+      <div id="features">
+        
+        <div class="icon-icon1">
+          <i class="icon" data-feather="volume-2"></i>
+        </div>
+        <div class="icon-description1">
+          <h2>Volume</h2>
+          <p>Jackson Guitars have a super loud and clear sound.</p>
+        </div>
+        
+        <div class="icon-icon2">
+          <i class="icon" data-feather="zap-off"></i>
+        </div>  
+        <div class="icon-description2">
+          <h2>Electronics</h2>
+          <p>The guitar electronics are well done, you won't be zapped, that's a promise.</p>
+        </div>
+        
+        <div class="icon-icon3">
+          <i class="icon" data-feather="truck"></i>
+        </div>
+        <div class="icon-description3">
+          <h2>Shipping</h2>
+          <p>Our Guitars ship faster than anything else, same day delivery guaranteed.</p>
+        </div>
+        
+        <script>feather.replace()</script>
+      </div>
+      
+      <div id="demo">
+          <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/ixpamARLb-M?autoplay=1&mute=1"></iframe>
+      </div>
+      
+      <div id="pricing">
+        <div class="guitar">
+          <h3>Soundmaster Guitar</h3>
+          <div class="product-description-div">
+            <h4>700$</h4>
+            <p class="product-description" style="margin-top: 10px;">Great Allrounder.</p>
+            <p class="product-description">Easy to play.</p>
+            <p class="product-description">Reasonable pricing.</p>
+            <button class="buy">BUY</button>
+          </div>
+        </div>
+        
+        <div class="guitar">
+          <h3>Heavy Beaver Guitar</h3>
+          <div class="product-description-div">
+            <h4>800$</h4>
+            <p class="product-description" style="margin-top: 10px;">Rocks hard.</p>
+            <p class="product-description">Most fun you ever had.</p>
+            <p class="product-description">Girl magnet.</p>
+            <button class="buy">BUY</button>
+          </div>
+        </div>
+        
+        <div class="guitar">
+          <h3>Reggae Maker Guitar</h3>
+          <div class="product-description-div">
+            <h4>900$</h4>
+            <p class="product-description" style="margin-top: 10px;">Chill playstyle.</p>
+            <p class="product-description">Perfect ergonomics.</p>
+            <p class="product-description">Handles great.</p>
+            <button type="button" class="buy">BUY</button>
+          </div>
+        </div>
+      </div>
+      
+      <div style="height: 100px;">
+      </div>
+    </main>
+    
+    <footer>
+      <nav>
+        <a class="footer-item" href="">Shipping</a>
+        <a class="footer-item" href="">Privacy</a>
+        <a class="footer-item" href="">Terms</a>
+        <a class="footer-item" href="">Contact</a>
+      </nav>
+    </footer>
+  </body>
+</html>
