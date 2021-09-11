@@ -1,5 +1,5 @@
 # freeCodeCamp-Responsive-Web-Design
-This repository contains the folowing projects I created by myself related to the Responsive Web Design course:
+This repository contains the following projects I created by myself for to the Responsive Web Design course:
 
 - Tribute Page
 - Survey Form Page
