@@ -1,38 +1,117 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Personal Portfolio">
+ <head>  
     <meta name="keywords" content="Personal Portfolio">
     <meta name="author" content="Tim S">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"
+/>
 	  
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="script.js"></script>
     
-	  <title id="title">Product Landing Page</title>
+	  <title id="title">Personal Portfolio</title>
 	</head>
 
   <body>
-    <nav id="navbar">
-      <a href="#welcome-section">Welcome</a>
-      <a href="#projects-section">My Work</a>
-    </nav>
+    
+    <!--<nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Welcome</a></li>
+        <li><a href="#projects-section">My Work</a></li>
+      </ul>
+    </nav>-->
     
     <header id="header">
     </header>
     
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
     <main>
+      
       <section id="welcome-section">
-        <h1>Hi I am Tim</h1>
-        <h2>a full stack developer</h2>
+          <div class="all">
+            <!--<a href="#projects">--><div class="lefter">
+            <div class="text"><a href="#projects">Projects</a></div>
+            </div>
+            <div class="left">
+              <div class="text">Web Design</div>
+            </div>
+            <div class="center" style="filter: invert(0%);">
+              <div class="explainer"><h1>Hi, I am Tim,<br>a full stack developer.</h1></div>
+              <div class="text">Frontend</div>
+            </div>
+            <div class="right">
+              <div class="text">Backend</div>
+            </div>
+            <div class="righter">
+              <div class="text">Blogging</div>
+            </div>
+           </div>
       </section>
       
-      <section id="projects-section">
-        <p>Metro tiles here<p>
+      <section id="projects">
+        <a href="https://www.google.com/search?q=project"><div class="project-tile" data-role="tile" data-size="large" data-effect="hover-slide-up">
+          <div class="slide-front">
+            <img src="https://www.cygnismedia.com/images/web-app-development-guidlines/cros-img.png" class="h-100 w-100">
+          </div>
+          <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+            <p class="text-center">This is project numero uno.</p>
+          </div>
+          <span class="branding-bar fg-dark">Project 1</span>
+          </div></a>
+        
+        <div class="project-tile" data-role="tile" data-size="large" data-effect="hover-slide-up">
+          <div class="slide-front">
+            <img src="https://attractiveweb.co.uk/wp-content/uploads/2019/12/istock-827896866.jpg" class="h-100 w-100">
+          </div>
+          <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+            <p class="text-center">This is project number two.</p>
+          </div>
+          <span class="branding-bar fg-dark">Project 2</span>
+        </div>
+        
+        <div class="project-tile" data-role="tile" data-size="large" data-effect="hover-slide-up">
+          <div class="slide-front">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQyUWTC1m5cbLwRmhALIYF0Ogu1hXjQ4jQYw&usqp=CAU" class="h-100 w-100">
+          </div>
+          <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+            <p class="text-center">This is project number three.</p>
+          </div>
+          <span class="branding-bar fg-dark">Project 3</span>
+        </div>
+      </section>
+      
+      <section id="contact">
+        <h1>Interested in working together?</h1>
+        
+        <div class="contact-links">
+          <a href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>
+          <a id="profile-link" href="https://github.com/TimS27" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+          <a
+            href="https://twitter.com/freecodecamp"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          >
+          <a href="mailto:example@example.com" class="btn contact-details"
+            ><i class="fas fa-at"></i> E-mail</a
+          >
+          <a href="tel:555-555-5555" class="btn contact-details"
+            ><i class="fas fa-mobile-alt"></i> Call me</a
+          >
+        </div>
+        
       </section>
     </main>
     
@@ -45,5 +124,7 @@
         <a class="footer-item" href="">Contact</a>
       </nav>-->
     </footer>
+    
+    <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
   </body>
 </html>
